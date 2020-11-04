@@ -1,4 +1,3 @@
-<?php/*application/views/common/header.php*/ ?>
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -7,6 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
         <title>家計簿掲示板Hub</title>
-        <link rel="stylesheet" href="/hub/assets/css/style.css">
+        <link rel="stylesheet" href="<?php echo base_url()?>/hub/assets/css/style.css">
     </head>
 </html>

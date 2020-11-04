@@ -1,5 +1,5 @@
 <body>
-    <div id="contact" class="big-bg">
+    <div id="setting" class="big-bg">
         <header class="page-header wrapper">
             <nav>
                 <ul class="main-nav">
@@ -7,23 +7,25 @@
                     <li><a href="*">投稿</a></li>
                     <li><a href="*">DM</a></li>
                     <li><a href="*">履歴</a></li>
-                    <li><a href="*">設定</a></li>
+                    <li><a href="http://localhost/Hub/setting/">設定</a></li>
                     <li><a href="*">ログアウト</a></li>
                 </ul>
             </nav>
         </header>
-
-        <div class="wrapper">
-            <h2 class="page-title">Setting</h2>
-            <form action="#">
+    </div>
+    
+    <h2 class="setting-title">Setting</h2>
+    <form method="post" action="http://localhost/Hub/add/">
+        <div class="setting-contents wrapper">
+            <article>
                 <div>
                     <label for="income">収入</label>
                     <input type="text" id="income" name="income">
                 </div>
 
                 <div>
-                    <label for="fixed_cost">食費</label>
-                    <input type="text" id="fixed_cost" name="fixed_cost">
+                    <label for="food_cost">食費</label>
+                    <input type="text" id="food_cost" name="food_cost">
                 </div>
 
                 <div>
@@ -40,9 +42,9 @@
                     <label for="etc">その他</label>
                     <input type="text" id="etc" name="etc">
                 </div>
+            </article>
 
-
-
+            <aside>
                 <div>
                     <label for="budget">予算</label>
                     <input type="text" id="budget" name="budget">
@@ -72,10 +74,9 @@
                     <label for="key">パスワード変更</label>
                     <input type="text" id="key" name="key">
                 </div>
-
-                <input type="submit" class="button" value="送信">
-            </form>
-        </div><!-- /.wrapper -->
-    </div><!-- /#contact -->
+            </aside>
+        </div><!-- /.setting-contents wrapper -->
+        <input type="submit" class="button" value="更新">
+    </form>
 </body>
 

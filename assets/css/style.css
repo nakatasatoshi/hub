@@ -44,11 +44,11 @@ img {
 
 /* ボタン */
 .button {
-    font-size: 1.375rem;
+    font-size: 1rem;
     background: #0bd;
     color: #fff;
     border-radius: 5px;
-    padding: 18px 32px;
+    padding: 10px 24px;
 }
 .button:hover {
     background: #0090aa;
@@ -112,6 +112,13 @@ textarea {
 
 /* setting
 ------------------------------- */
+.setting-title {
+    font-size: 3rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-left: 76px;
+}
 .setting-contents {
     display: flex;
     justify-content: space-between;
@@ -119,9 +126,9 @@ textarea {
 }
 
 article {
-    width: 74%;
+    width: 50%;
 }
 
 aside {
-    width: 22%;
+    width: 50%;
 }
