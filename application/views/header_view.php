@@ -1,11 +1,25 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="家計簿を使って出会いを求めるサイト">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
         <title>家計簿掲示板Hub</title>
-        <link rel="stylesheet" href="<?php echo base_url()?>/hub/assets/css/style.css">
-    </head>
+        <link rel="stylesheet" href="<?php echo base_url()?>/hub/assets/style.css/">
+    </head> -->
+
+    <!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>家計簿掲示板Hub</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="/hub/assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+  </head>
 </html>
