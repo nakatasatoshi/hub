@@ -11,7 +11,7 @@ class Hub_model extends CI_Model
     // 配列に入れた情報をDBに格納する
     public function hub_add($data)
     {
-        $this->db->insert('top_page',$data);
+        $this->db->insert('user',$data);
     }
     
 }
